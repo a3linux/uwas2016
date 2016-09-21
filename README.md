@@ -17,5 +17,7 @@ UWAS 2016 Joomla 3.x base site
 - installation - Installation documents and notes
 
 
-Jiayi Zhao zhaojiayi80@gmail.com
+
+Jiayi Zhao zhaojiayi80 AT gmail.com
+
 Allen Chen a3linux AT gmail.com
