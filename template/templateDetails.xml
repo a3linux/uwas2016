@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
 <extension version="3.5" type="template" method="upgrade">
-	<name>UWAS 2016</name>
+    <name>UWAS 2016</name>
 	<creationDate>19 Sep 2016</creationDate>
 	<author>Allen chen</author>
 	<copyright>Copyright © 2016 - UWAS.org</copyright>
@@ -14,7 +14,7 @@
             <li>Joomla 3.6.x</li>
             <li>Customized with UWAS.org requuirements</li>
         </ul>
-        <p>This template is forked from Master Bootstrap one created by
+        <p>This template is forked from <a href="http://www.masterbootstrap.com/" target="_blank">Master Bootstrap</a> one created by
         <a href="http://www.gsuez.cl" target="_blank">Gonzalo Suez </a></p>
 	]]></description>
 	<files>
@@ -34,9 +34,9 @@
 		<filename>templateDetails.xml</filename>
 	</files>
     <positions>
-	<position>top</position>
-	<position>navigation</position>
-	<position>fullwidth</position>
+	    <position>top</position>
+	    <position>navigation</position>
+        <position>fullwidth</position>
         <position>showcase</position>
 	    <position>feature</position>
         <position>breadcrumbs</position>
@@ -48,7 +48,7 @@
         <position>footer</position>
         <position>copy</position>
         <position>panelnav</position>
-	<position>debug</position>
+	    <position>debug</position>
 	</positions>
 	<config>
 		<fields name="params">
@@ -110,8 +110,8 @@
 			<fieldset  name="logo" type="upload_func" label="Logo">
 					<field name="logo_file" type="media" label="Select your logo:"></field>
 					<field name="logo_link" type="text" label="Logo link:"  description="Example: http://www.masterbootstrap.com" default="index.php"></field>
-					<field name="logo_width" type="text" label="Logo width:" description="Example: 90" default="173"></field>
-					<field name="logo_height" type="text" label="Logo height:" description="Example: 90" default="26"></field>
+					<field name="logo_width" type="text" label="Logo width:" description="Example: 90 unit px will be used, please input valid number!!!)" default="240"></field>
+					<field name="logo_height" type="text" label="Logo height:" description="Example: 90px or auto, we didn't apply unit px here for height, so it can be auto" default="auto"></field>
 			</fieldset>
 			<!-- LAYOUT -->
 		<fieldset name="Layout" label="Layout Options">

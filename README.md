@@ -15,6 +15,7 @@ UWAS 2016 Joomla 3.x base site
 
 - template - Joomla 3.6.x template
 - installation - Installation documents and notes
+- administrator - The quick hack for Joomla isis administrator template and apply this with sync folder to server installation one
 
 
 

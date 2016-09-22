@@ -56,7 +56,7 @@ if ($params->get('compile_sass', '0') === '1')
 </button>
                 <div id="brand">
                                 <a href="<?php  echo $this->params->get('logo_link')   ?>">
-                                         <img style="width:<?php  echo $this->params->get('logo_width')   ?>px; height:<?php  echo $this->params->get('logo_height')   ?>px; " src="<?php  echo $this->params->get('logo_file')   ?>" alt="Logo" />
+                                         <img style="width:<?php  echo $this->params->get('logo_width')   ?>px; height:<?php echo $this->params->get('logo_height') ?>; " src="<?php  echo $this->params->get('logo_file')   ?>" alt="Logo" />
                                         </a>
                         </div>
 </div>
@@ -148,15 +148,26 @@ if ($params->get('compile_sass', '0') === '1')
 </div>
 <?php
 	} else {
-
-		if ($menu->getActive() !== $menu->getDefault()) {
+        if ($menu->getActive() == $menu->getDefault('en-GB') ||
+            $menu->getActive() == $menu->getDefault('zh-CN') ||
+            $menu->getActive() == $menu->getDefault('ms-MY') ||
+            $menu->getActive() == $menu->getDefault('ta-IN')
+        ) {
+            // if it is one of the language frontpage
+            // DIDNOT show anything
+?>
+<div style="display:none"></div>
+    <?php
+        } else {
 			// show on all pages but the default page
-			?>
+?>
 <div id="main-box">
 <jdoc:include type="component" />
 </div>
 <?php
- }} ?>
+        }
+    }
+?>
 <!-- Front page show or hide -->
 <!-- Below Content Module Position -->
 <?php  if($this->countModules('content-bottom')) : ?>
