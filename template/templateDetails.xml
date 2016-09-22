@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
 <extension version="3.5" type="template" method="upgrade">
-	<name>Master Bootstrap</name>
-	<creationDate>05 APR 2016</creationDate>
-	<author>Gonzalo Suez</author>
-	<copyright>Copyright © 2013 - 2016 gsuez.cl</copyright>
-	<authorEmail>info@gsuez.cl</authorEmail>
-	<authorUrl>http://www.gsuez.cl</authorUrl>
-	<version>Stable 1.2.2</version>
+	<name>UWAS 2016</name>
+	<creationDate>19 Sep 2016</creationDate>
+	<author>Allen chen</author>
+	<copyright>Copyright © 2016 - UWAS.org</copyright>
+	<authorEmail>INFO@UWAS.org</authorEmail>
+	<authorUrl>http://www.uwas.org</authorUrl>
+	<version>1.0.0</version>
 	<description><![CDATA[
-		<h1>Master Bootstrap for Joomla! 3.5</h1>
-		<p>Un template para trabajar desde 0 con todas las ventajas de Bootstrap v.3.3.5</p>
-		<p>A template to work from scratch, with all the advantages of Bootstrap v.3.3.5.</p>
-		<p>Created by <a href="http://www.gsuez.cl" target="_blank">Gonzalo Suez </a></p>
+        <h1>UWAS site template for Joomla 3.6.x</h1>
+        <ul>
+            <li>Joomla 3.6.x</li>
+            <li>Customized with UWAS.org requuirements</li>
+        </ul>
+        <p>This template is forked from Master Bootstrap one created by
+        <a href="http://www.gsuez.cl" target="_blank">Gonzalo Suez </a></p>
 	]]></description>
 	<files>
 		<folder>css</folder>
@@ -35,7 +38,7 @@
 	<position>navigation</position>
 	<position>fullwidth</position>
         <position>showcase</position>
-	<position>feature</position>
+	    <position>feature</position>
         <position>breadcrumbs</position>
         <position>left</position>
         <position>right</position>

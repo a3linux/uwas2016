@@ -2,3 +2,8 @@
 *.swp
 *.tmp
 *.log
+
+# Template Gulp
+template/gulp-config.json
+template/node_modules
+template/releases
