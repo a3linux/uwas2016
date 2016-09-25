@@ -1,0 +1,40 @@
+.event-brand {
+  background-color: #948CA4;
+  color: #E5E4E8;
+  margin: 10px 0px;
+  font-weight: 800;
+  font-size: 120%;
+  text-align: left;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.event-time {
+  font-weight: 500;
+  color: #948CA4;
+  padding: 2px;
+}
+
+.event-title,
+.event-title a,
+.event-title a:active,
+.event-title a:focus {
+  color: #75698C;
+  font-weight: 700;
+  font-size: 110%;
+  padding: 2px;
+}
+
+.event-title a:hover {
+  color: #5A4A76;
+}
+
+.event-location {
+  color: #948CA4;
+  padding: 2px;
+}
+
+.event-detail {
+  color: rgba(0, 0, 0, 0.4);
+  padding: 2px;
+}

@@ -1,14 +1,14 @@
 {
-  "name": "master-bootstrap",
-  "version": "1.2.2",
-  "description": "Bootstrap 3 template for Joomla!",
+  "name": "uwas2016",
+  "version": "1.0.0",
+  "description": "UWAS Site Joomla Template fork from Master Bootstrap 3!",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gsuez/master-bootstrap-3.git"
+    "url": "git://github.com/a3linux/uwas2016.git"
   },
   "keywords": [
     "joomla",
@@ -17,12 +17,12 @@
     "bootstrap3",
     "bootstrap"
   ],
-  "author": "Gonzalo Suez <info@gsuez.cl>",
+  "author": "Allen Chen(a3linux@gmail.com)",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/gsuez/master-bootstrap-3/issues"
+    "url": "https://github.com/a3linux/uwas2016/issues"
   },
-  "homepage": "https://github.com/gsuez/master-bootstrap-3#readme",
+  "homepage": "https://uwas.org/",
   "devDependencies": {
     "beepbeep": "^1.2.0",
     "browser-sync": "^2.11.2",

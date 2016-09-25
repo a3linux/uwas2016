@@ -1,0 +1,48 @@
+// remove <li> prefix for slideshow or others 
+.plain-ul-li .module-content ul li::before {
+    content: none;
+}
+
+body {
+    color: rgba(0,0,0,0.5);
+}
+body p {
+    font-weight: 600;
+}
+body h2 {
+    font-size: 2em;
+    line-height: 1.1em;
+    color: #42606D;
+}
+h3.title {
+    font-size: 1.2em;
+    color: #42606D;
+    font-weight: 600;
+}
+h3.title:before {
+    content: "\f1b2";
+    font-family: "FontAwesome";
+    margin: 0px 8px;
+    color: rgba(66, 96, 109, 0.8);
+}
+
+.nav-tabs>li>a {
+   color: #A29A87; 
+}
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+    color: #CDBD95;    
+}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+    color: #AD9966;
+}
+// Override some bootstrap default colors 
+.well {
+    background-color: #F0E5C9;
+    color: #AD9966;
+}
+legend {
+    color: #AD9966;
+}

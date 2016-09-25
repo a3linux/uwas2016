@@ -1,4 +1,4 @@
-<?php 
+<?php
 	/*------------------------------------------------------------------------
 # author    Gonzalo Suez
 # copyright © 2012 gsuez.cl. All rights reserved.
@@ -8,7 +8,7 @@
 defined( '_JEXEC' ) or die;
 // variables
 $app = JFactory::getApplication();
-$doc = JFactory::getDocument(); 
+$doc = JFactory::getDocument();
 $tpath = $this->baseurl.'/templates/'.$this->template;
 ?><!doctype html>
 <html lang="<?php echo $this->language; ?>">
@@ -16,9 +16,9 @@ $tpath = $this->baseurl.'/templates/'.$this->template;
   <title><?php echo $this->error->getCode(); ?> - <?php echo $this->title; ?></title>
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /> <!-- mobile viewport optimized -->
   <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/system/css/error.css" type="text/css" />
-  <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/masterbootstrap/css/font-awesome.min.css" type="text/css" />  
-  <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/masterbootstrap/css/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/masterbootstrap/css/template.css" type="text/css" />  
+  <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/uwas2016/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/uwas2016/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/uwas2016/css/template.css" type="text/css" />
 </head>
 <body>
       <div class="error">
