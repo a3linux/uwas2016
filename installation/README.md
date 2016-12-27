@@ -6,4 +6,7 @@ Major Installation notes
 - Editor - JCE Editor with JCE MediaBox and File Browser
 - SlideShow - DJ-ImageSlider
 - Events - JEvents with customized Latest Events Module
--
+- AllVideos plugin - We can insert/embed YouTube videos by such code,
+    ```
+{youtube}YOUTUBE_VIDEO_ID{/youtube}
+    ```
